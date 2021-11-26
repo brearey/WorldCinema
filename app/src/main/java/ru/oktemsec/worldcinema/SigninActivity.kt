@@ -12,6 +12,7 @@ class SigninActivity : AppCompatActivity() {
 
         val btnRegister: Button = findViewById(R.id.btnRegister)
 
+        // Нажатие кнопки "Регистрация" и переход в окно Регистрации
         btnRegister.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)

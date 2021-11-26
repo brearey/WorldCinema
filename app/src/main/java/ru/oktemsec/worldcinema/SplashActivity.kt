@@ -10,6 +10,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+        //Задержка на 3 сек для Splash экрана с логотипом
         Handler().postDelayed({
             val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
