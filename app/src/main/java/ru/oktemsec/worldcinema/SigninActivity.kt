@@ -10,7 +10,7 @@ class SigninActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
 
-        val btnRegister: Button = findViewById(R.id.btnRegister)
+        val btnRegister: Button = findViewById(R.id.btnRegisterGo)
 
         // Нажатие кнопки "Регистрация" и переход в окно Регистрации
         btnRegister.setOnClickListener {
