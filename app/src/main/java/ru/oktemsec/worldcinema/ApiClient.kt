@@ -34,7 +34,7 @@ class ApiClient {
         return getRetrofit().create(RegisterService::class.java)
     }
 
-//    fun getLogin(): LoginService {
-//        return getRetrofit().create(LoginService::class.java)
-//    }
+    fun getLogin(): LoginService {
+        return getRetrofit().create(LoginService::class.java)
+    }
 }
